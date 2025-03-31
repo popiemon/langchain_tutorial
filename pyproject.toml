@@ -8,9 +8,11 @@ authors = [
 ]
 requires-python = ">=3.13"
 dependencies = [
+    "fastembed>=0.6.0",
     "jupyter>=1.1.1",
     "langchain-community>=0.3.20",
     "langchain-core>=0.3.49",
+    "langchain-ollama>=0.3.0",
     "langchain-openai>=0.3.11",
     "langchain-text-splitters>=0.3.7",
     "langchain[openai]>=0.3.21",
